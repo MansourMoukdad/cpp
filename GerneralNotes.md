@@ -1,18 +1,24 @@
 # cpp
-How the C++ works?
+- Variable is a data container to save date.
+- functions 
+    - formula like: Routine, Subroutine, Procedure, Subprogram, method
+    - We use funtions to apply DRY (Dont Repeat Yourself)
+    functions type:
+        1. BuildIn
+        2. Pre-defiend
+        3. Library
+        4. User-Defiend 
+    - Higher Order Function: accept a function as a parameter.
+    - Nested Function: function inside function.
+    Function features: 
+        - DRY
+        - Reusabilty
+        - Divide the project to simple steps.
+        - Readabilty 
+        - Enhancment for debugging process.
+    Other Functions:(all without identity)
+        1. Anonymous function
+        2. Lambda function
+        3. Lambda Expression
+        4. Inline function
 
-#include <iostream>: pre-processor statment, which mean processing before COMPLING.
-#include : means : pre-processor directive,
-
-*Header file: ex: #include <iostream>
-*Translation unit: 
-    - Take the Header File and the source code (your code) and tranlate it and make it ready for the COMPLIOR.
-    - translation done through OBJECT FILE.
-    - the OBJECT FILE is the file can computer understand.
-        - ex: source.obj: this generated in the debug folder automatically in window os.
-        NOW:    OBJECT FILE --> Waiting the LINKER --> Give App.exe
-Summary:
-1. Pre-processor.
-2. Translation units.
-3. Compiler will translate everything and add it to the OBJECT FILE.
-4. LINKER: Link all objects togethr and give OBJECT.exe
