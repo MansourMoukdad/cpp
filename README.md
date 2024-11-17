@@ -15,4 +15,4 @@ Summary:
 1. Pre-processor.
 2. Translation units.
 3. Compiler will translate everything and add it to the OBJECT FILE.
-4. LINKER: Link all objects togethr and give OBJECT.
+4. LINKER: Link all objects togethr and give OBJECT.exe
