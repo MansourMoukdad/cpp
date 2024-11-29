@@ -46,6 +46,16 @@ int main()
   cout << sizeof(long long int) << "\n";
   cout << sizeof(long long) << "\n";
 
+  int num_one = 100;
+  cout << num_one << "\n";
 
+  signed int num_two = 0;
+  cout << num_two << "\n";
+
+  unsigned int num_three = 100;
+  cout << num_three << "\n";
+  
+  unsigned int num_four = -10; // Problem => unsigned take positive values only
+  cout << num_four << "\n";
   return 0;
 }
