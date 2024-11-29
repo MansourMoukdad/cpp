@@ -57,5 +57,13 @@ int main()
   
   unsigned int num_four = -10; // Problem => unsigned take positive values only
   cout << num_four << "\n";
+
+  // using bignum = long long int;
+
+  typedef long long int  bignum;
+
+  bignum my_number = 10001001000;
+  cout << my_number << "\n";
+  
   return 0;
 }
