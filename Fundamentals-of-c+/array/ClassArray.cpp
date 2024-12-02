@@ -12,8 +12,8 @@ using namespace std;
 
 int main()
 {   
-    // int points[4] = {1, 2, 3, 4};  // C - Style Array
-    array<int, 4> points = {1, 2, 3, 4};
+    // int points[4] = {1, 2, 3, 4};     // C - Style Array
+    array<int, 4> points = {1, 2, 3, 4}; // Class Style Array
 
     cout << points[0] << "\n";
     cout << points[1] << "\n";
