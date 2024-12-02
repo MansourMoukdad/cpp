@@ -17,11 +17,11 @@ int main()
     cout << "1 | 5 | 10 | 16 | ??\n";
     cin >> answers[0];
 
-    cout << "Sequence 1\n";
+    cout << "Sequence 2\n";
     cout << "2 | 4 | 8 | 16 | ??\n";
     cin >> answers[1];
     
-    cout << "Sequence 1\n";
+    cout << "Sequence 3\n";
     cout << "1 | 1 | 2 | 3 | ??\n";
     cin >> answers[2];
 
