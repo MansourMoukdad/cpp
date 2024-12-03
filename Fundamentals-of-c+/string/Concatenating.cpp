@@ -15,8 +15,9 @@ int main()
 {
     char fname[] = "Mansour ";
     char lname[] = "Almoukdad";
+
     cout << fname << lname << "\n";
-    cout << strcat(fname, lname) << "\n";
+    // cout << strcat(fname, lname) << "\n";
 
     string firstname = "Mansour ";
     string lastname = "Almoukdad";
