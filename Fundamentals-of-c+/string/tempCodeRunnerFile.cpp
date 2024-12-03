@@ -15,13 +15,13 @@ int main()
 {
     char fname[] = "Mansour ";
     char lname[] = "Almoukdad";
-    cout << fname << lname << "\n";
-    cout << strcat(fname, lname) << "\n";
+    cout << fname << lname << endl;
+    cout << strcat(fname, lname) << endl;
 
     string firstname = "Mansour ";
     string lastname = "Almoukdad";
-    cout << firstname + lastname << "\n";
-    cout << firstname.append(lastname) << "\n";
+    cout << firstname + lastname << endl;
+    cout << firstname.append(lastname) << endl;
 
     return 0;
 }
