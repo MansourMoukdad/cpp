@@ -12,7 +12,7 @@ int main()
     int numsCount = sizeof(nums) / sizeof(nums[0]); // 6
 
     int i = 0;
-    for (; i < numsCount;) 
+    for (;;) 
     {
         cout << nums[i] << "\n";
         i++;
